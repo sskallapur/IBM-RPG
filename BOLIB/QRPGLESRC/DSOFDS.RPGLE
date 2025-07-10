@@ -20,11 +20,11 @@
 0015.00 D   work                        50A
 0016.00  *
 0017.00  /free
-0018.00   student.firstName = 'Barrett';
-0019.00   student.lastName = 'Otte';
+0018.00   student.firstName = 'FIRST_NAME';
+0019.00   student.lastName = 'LAST_NAME';
 0020.00   student.contactInfo.mobilePhone = 1234567890;
 0021.00   student.contactInfo.workPhone = 1234567890;
-0022.00   student.contactInfo.email.personal = 'barrettotte@gmail.com';
+0022.00   student.contactInfo.email.personal = 'user@company.com';
 0023.00   student.contactInfo.email.work = student.contactInfo.email.personal;
 0024.00   student.department = 'CS';
 0025.00   *INLR = *ON;

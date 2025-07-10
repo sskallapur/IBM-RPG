@@ -12,8 +12,8 @@
 0007.00 D employee        DS                  likeDS(fullName)
 0008.00  *
 0009.00  /free
-0010.00   student.firstName = 'Barrett';
-0011.00   student.lastName = 'Otte';
+0010.00   student.firstName = 'LAST_NAME';
+0011.00   student.lastName = 'LAST_NAME';
 0012.00
 0013.00
 0014.00

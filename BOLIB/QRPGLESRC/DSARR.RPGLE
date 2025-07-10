@@ -16,7 +16,7 @@
        dcl-s j int(10);
 
        families(1).address = '1234 Street Road';
-       families(1).people(1).name = 'Barrett';
+       families(1).people(1).name = 'FIRST_NAME';
        families(1).people(1).age = 22;
        families(1).people(2).name = 'Someone';
        families(1).people(2).age = 100;

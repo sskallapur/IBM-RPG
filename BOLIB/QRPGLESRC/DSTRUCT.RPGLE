@@ -1,6 +1,6 @@
        /free
        dcl-ds bankAcc qualified;
-         name char(10) inz('Barrett');
+         name char(10) inz('FIRST_NAME');
          id packed(5) inz(1);
          balance packed(9 : 2) inz(185.50);
        end-ds;
@@ -12,7 +12,7 @@
             + ' has a balance of '
             + %char(bankAcc.balance));
 
-       otherAcc.name = 'Joe';
+       otherAcc.name = 'USER1';
        otherAcc.id = 1234;
        otherAcc.balance += 10000;
        dsply ('[' + %char(otherAcc.id) + '] '
