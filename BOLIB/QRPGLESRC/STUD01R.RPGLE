@@ -10,11 +10,11 @@
 0004.00  *
 0005.00  /free
 0006.00   read studpf;
-0007.00   dsply sname; // 'Barrett'
+0007.00   dsply sname; // 'USER1'
 0008.00   readp studpf;
-0009.00   dsply sname; // 'Barrett'
+0009.00   dsply sname; // 'USER1'
 0010.00   read studpf;
-0011.00   dsply sname; // 'Joe'
+0011.00   dsply sname; // 'USER2'
 0012.00
 0013.00   key = 5;
 0014.00   setll key studpf; //setll-before 5, setgt-after 5
